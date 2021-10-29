@@ -26,6 +26,10 @@
  <c:if test="${param.money >= 700 and param.money <= 999}">
  	사과 선텍
  </c:if>
+<%--     eq   ne    empty    !empty     --%> 
+<%--	 ==	  !=   비어있다	 비어있지 안다 --%>
+
+
  --%>
 
 <c:choose><%-- else if(스위치 문과 비슷하기도 하다) --%>
